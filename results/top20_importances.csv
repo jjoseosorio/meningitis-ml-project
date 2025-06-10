@@ -1,0 +1,21 @@
+,0
+Destino de alta,0.3804162885507517
+Compromiso cuantitativo de conciencia  (si/no),0.10717169756684963
+Servicio Egreso_20-312 - Unidad de Cuidados Intensivos Adulto,0.08499052218441978
+Diag 01 Principal (cod+des)_B00.4 - Encefalitis herpética (G05.1*),0.05189608989707259
+Estancia del Episodio,0.042735963400417264
+Complicaciones neurológicas agudas (si/no),0.03142776783948908
+Estadia UPC en días (UTI+UCI),0.025822880001768213
+Edad en años,0.024447672139013516
+Valor PCR si alterada,0.019525900132527654
+Diagnóstico_G05.1,0.01788847216717752
+Porcentaje,0.016100236033141403
+"Diagnóstico Descripción_Encefalitis, mielitis y encefalomielitis en enfermedades virales clasificadas en otra parte",0.015269283567973866
+Tiempo hasta el diagnóstico desde la primera consulta (días),0.01144905328761366
+Diag 01 Principal (cod+des)_Desconocido,0.010786867689062157
+TC de cerebro ingreso (no considerar lesiones antiguas) (normal 0 /anormal 1 )_Desconocido,0.010102974922037176
+Diagnóstico Descripción_Desconocido,0.009865048526455774
+Cefalea (si/no/no evaluable),0.008192220273757628
+LCR leucocitos,0.008102712698463577
+LCR proteinas (mg/dL)_Desconocido,0.007550774900448213
+LCR glucosa (mg(dL)_Desconocido,0.007026354851485388
