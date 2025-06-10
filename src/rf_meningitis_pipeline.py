@@ -1,24 +1,5 @@
 # rf_meningitis_pipeline.py
-"""
-Predicción de desenlace clínico adverso (mRS ≥ 5) en pacientes con meningitis
-==========================================================================
 
-Ejecución
----------
-1. Coloque este script en la carpeta raíz del proyecto.
-2. Cree un subdirectorio `data/` y copie dentro el archivo
-   `BASE DE DATOS CORREGIDA PARA EDITAR.xlsx` (nombre idéntico).
-3. Cree un entorno virtual y ejecute:
-
-   pip install -r requirements.txt
-
-4. Lance el script:
-
-   python rf_meningitis_pipeline.py
-
-Al finalizar, se generará `results/metrics_report.txt` y
-`results/confusion_matrix.png`.
-"""
 
 import os
 import time
@@ -78,6 +59,7 @@ def load_and_clean(filepath: Path) -> pd.DataFrame:
 
     # One‑hot encode
     df = pd.get_dummies(df, drop_first=True)
+    df.columns = df.columns.astype(str) 
     return df
 
 
